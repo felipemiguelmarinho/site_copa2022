@@ -1,0 +1,77 @@
+body{
+	background-color: #990e38;
+}
+
+.cabeçalho-da-pagina {
+	background-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	color: #990e38;
+	font-family: "Segoe UI Symbol";
+	text-align: center;
+	font-size: 40px;
+}
+
+.descrição {
+	font-size: 18 px;
+	font-family: "Segoe UI Symbol";
+	text-align: center;
+}
+
+.img-logo{
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.corpo {
+	width: 1300px; /* LARGURA DO CORPO DA PÁGINA*/
+	margin: 50px auto 50px;
+}
+
+.grade {
+	display: grid;
+	grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px)  calc(25% - 15px);
+	background-color: transparent;
+	height: 760px;
+	grid-gap: 20px 20px; 
+}
+
+.chave {
+	background-color: white;
+	padding: 20px 20px 20px 20px ;
+	border-radius: 25px; /*borda arredondada*/
+}
+
+.grupo{
+	background-color: transparent;
+	padding: 10px 10px 10px 10px;
+}
+/*São quatro de superior, inferior, direita e esquerda*/
+.nomedogrupo{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-bandeira{
+	height: 55px;
+	width: 70px;
+	margin: 30px 30px 0 10px;
+	border-radius: 10px;
+}
+
+.nomedopais{
+	margin: -40px 30px 0 90px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
